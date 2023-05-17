@@ -4,6 +4,9 @@ background-repeat: no-repeat;
 background-position: top;
 background-size: cover;
 }
+header {display: flex;
+justify-content: space-around;
+background-color: #E7E0DA}
 .color1 {color: #1B1F2B}
 .color2 {color: #404040}
 .color3 {color: #08376B ;text-decoration: underline; text-align: center}
@@ -17,6 +20,9 @@ h1{text-align: center;}
 .pasoapaso{}
 .fotopastafrola{}
 .iconowhatsapp {position: fixed; bottom: 20px; right:20px;}
+.icono {display: flex;
+justify-content: space-around;
+flex-wrap: wrap;}
 .menu ul {
 		display: flex;
 		padding: 0;
@@ -25,7 +31,7 @@ h1{text-align: center;}
 	}
 	.menu a {
 		display: block;
-		padding: 2em;
+		padding: 1em;
 		background-color: #E7E0DA;
 		text-decoration: none;
 		color: #191C26;
@@ -39,3 +45,7 @@ h1{text-align: center;}
 	.menu ul li a:hover + ul, .menu ul li ul:hover {
 		display: block;
 	}
+  .footer {display: flex;
+  justify-content: space-around;
+  background-color: #E7E0DA;
+flex-wrap: wrap;}
