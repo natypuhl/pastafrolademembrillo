@@ -1,6 +1,6 @@
 @font-face {
   font-family: "ITCBLKAD";
-  src: url("../Fuentes/ITCBLKAD.ttf") format ("truetype");
+  src: url("../Fuentes/ITCBLKAD.TTF") format ("truetype");
 }
 
 body {background-color: #E7E0DA;
@@ -12,6 +12,9 @@ background-size: cover;
 header {display: flex;
 justify-content: space-around;
 background-color: #E7E0DA}
+footer {display: flex;
+justify-content: space-around;
+flex-wrap: wrap;}
 .color1 {color: #1B1F2B}
 .color2 {color: #404040}
 .color3 {color: #08376B ; text-decoration: underline; text-align: center; font-family:"ITCBLKAD"}
@@ -26,6 +29,23 @@ background-color: #E7E0DA}
 .fotopastafrola{width: 50vw}
 .fotpast {width: 50% ;}
 .iconowhatsapp {position: fixed; bottom: 20px; right:20px;}
+@@media screen and (max-width 767px)  {
+.cuchillo {display: none; }
+body { background-color: black ;
+  color: red ;
+}
+}
+@@media screen and (min-width 1200px)  {
+body { background-color: white ;
+  color: black ;
+}
+}
+@@media screen and (min-width 767px) and (max-width 1024px) {
+body { background-color: lightblue ;
+  color: black ;
+}
+}
+
 .icono {display: flex;
 justify-content: space-around;
 flex-wrap: wrap;}
@@ -57,4 +77,4 @@ flex-wrap: wrap;}
   background-color: #E7E0DA;
 flex-wrap: wrap;}
 
-.desarrollador {font-family:"ITCBLKAD"}
+.desarrollador {font-family:"ITCBLKAD" ;}
