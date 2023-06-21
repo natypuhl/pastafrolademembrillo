@@ -2,79 +2,95 @@
   font-family: "ITCBLKAD";
   src: url("../Fuentes/ITCBLKAD.TTF") format ("truetype");
 }
-
 body {background-color: #E7E0DA;
-background-image: url();
-background-repeat: no-repeat;
-background-position: top;
-background-size: cover;
+  background-image: url();
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
 }
 header {display: flex;
-justify-content: space-around;
-background-color: #E7E0DA}
+  justify-content: space-around;
+  background-color: #E7E0DA}
 footer {display: flex;
-justify-content: space-around;
-flex-wrap: wrap;}
+    justify-content: space-around;
+    background-color: #E7E0DA;
+    flex-wrap: wrap;}
 .color1 {color: #1B1F2B}
 .color2 {color: #404040}
 .color3 {color: #08376B ; text-decoration: underline; text-align: center; font-family:"ITCBLKAD"}
 .color4 {color: #0606FC}
 .color5 {color: #5C76F1}
 .color6 {color: #E7E0DA}
-.color7 {color: #CD676A ; font-family: 'Pangolin', cursive; }
+.color7 {color: #CD676A ; font-family: 'Pangolin', cursive; background-color: #E7E0DA}
 .color8 {color: #644F63}
 .pasoapaso{}
-.imgingredientes {width: 50vw}
+.imgingredientes {width: 50vw; background-color: #E7E0DA}
 .imging {width: 50% ;}
 .fotopastafrola{width: 50vw}
 .fotpast {width: 50% ;}
 .iconowhatsapp {position: fixed; bottom: 20px; right:20px;}
-@@media screen and (max-width 767px)  {
-.cuchillo {display: none; }
-body { background-color: black ;
-  color: red ;
-}
-}
-@@media screen and (min-width 1200px)  {
-body { background-color: white ;
-  color: black ;
-}
-}
-@@media screen and (min-width 767px) and (max-width 1024px) {
-body { background-color: lightblue ;
-  color: black ;
-}
-}
+@media screen and (max-width 767px)  {
+        .cuchillo {display: none; }
+        body { background-color: black ;
+          color: red ;
+        }
+      }
+@media screen and (min-width 1200px)  {
+        body { background-color: white ;
+          color: black ;
+        }
+      }
+@media screen and (min-width 767px) and (max-width 1024px) {
+        body { background-color: lightblue ;
+          color: black ;
+        }
+      }
 
 .icono {display: flex;
-justify-content: space-around;
-flex-wrap: wrap;}
+        justify-content: space-around;
+        flex-wrap: wrap;}
 .menu ul {
-		display: flex;
-		padding: 0;
-		margin: 0;
-		list-style: none;
-    font-family: "ITCBLKAD";
-	}
-	.menu a {
-		display: block;
-		padding: 1em;
-		background-color: #E7E0DA;
-		text-decoration: none;
-		color: #191C26;
-	}
-	.menu a:hover {
-		background-color: #E7E0DA;
-	}
-	.menu ul li ul {
-		display: none;
-	}
-	.menu ul li a:hover + ul, .menu ul li ul:hover {
-		display: block;
-	}
-  .footer {display: flex;
-  justify-content: space-around;
-  background-color: #E7E0DA;
-flex-wrap: wrap;}
-
-.desarrollador {font-family:"ITCBLKAD" ;}
+          display: flex;
+          padding: 0;
+          margin: 0;
+          list-style: none;
+          font-family: "ITCBLKAD";
+        }
+.menu a {
+          display: block;
+          padding: 1em;
+          background-color: #E7E0DA;
+          text-decoration: none;
+          color: #191C26;
+        }
+.menu a:hover {
+          background-color: #E7E0DA;
+        }
+.menu ul li ul {
+          display: none;
+        }
+.menu ul li a:hover + ul, .menu ul li ul:hover {
+          display: block;
+        }
+.desarrollador {font-family:"ITCBLKAD";}
+.cambiar {
+    border: none;
+    color: black;
+    background-color: #E7E0DA
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.autor
+{
+    display: flex;
+    margin-top: 18px;
+    height: 10%;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #E7E0DA;
+}
