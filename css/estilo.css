@@ -1,19 +1,28 @@
 @font-face {
   font-family: "ITCBLKAD";
   src: url("../Fuentes/ITCBLKAD.TTF") format ("truetype");
+
 }
-body {background-color: #E7E0DA;
-  background-image: url();
+
+body {
+background-image: url("../imagenes/degrade.jpg");
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
 }
 header {display: flex;
   justify-content: space-around;
-  background-color: #E7E0DA}
+  background-image: url("../imagenes/degrade.jpg");
+  background-size: cover;
+}
+section {
+display: flex;
+ flex-direction: column;
+}
 footer {display: flex;
     justify-content: space-around;
-    background-color: #E7E0DA;
+    background-image: url("../imagenes/degrade2.jpg");
+  background-size: cover;
     flex-wrap: wrap;}
 .color1 {color: #1B1F2B}
 .color2 {color: #404040}
@@ -21,13 +30,26 @@ footer {display: flex;
 .color4 {color: #0606FC}
 .color5 {color: #5C76F1}
 .color6 {color: #E7E0DA}
-.color7 {color: #CD676A ; font-family: 'Pangolin', cursive; background-color: #E7E0DA}
+.color7 {color: #CD676A ; font-family: 'Pangolin', cursive;}
 .color8 {color: #644F63}
 .pasoapaso{}
-.imgingredientes {width: 50vw; background-color: #E7E0DA}
-.imging {width: 50% ;}
-.fotopastafrola{width: 50vw}
-.fotpast {width: 50% ;}
+.imgingredientes {max-width: 50%;
+  margin-left: 1vw;
+  margin-bottom: 3%;
+}
+.imging {   max-width: 35%;
+    border-radius: 20%;
+    border-style: groove;
+    border-color: black;
+    padding: 0.5%;
+     }
+
+.fotpast {    max-width: 35%;
+    border-radius: 20%;
+    border-style: groove;
+    border-color: black;
+    padding: 0.5%;
+     }
 .iconowhatsapp {position: fixed; bottom: 20px; right:20px;}
 @media screen and (max-width 767px)  {
         .cuchillo {display: none; }
@@ -58,13 +80,13 @@ footer {display: flex;
         }
 .menu a {
           display: block;
-          padding: 1em;
-          background-color: #E7E0DA;
+          padding: 0.5em;
+
           text-decoration: none;
           color: #191C26;
         }
 .menu a:hover {
-          background-color: #E7E0DA;
+
         }
 .menu ul li ul {
           display: none;
@@ -76,7 +98,7 @@ footer {display: flex;
 .cambiar {
     border: none;
     color: black;
-    background-color: #E7E0DA
+    background-color: white
     font-size: 1.2rem;
     font-weight: 500;
 }
@@ -92,5 +114,5 @@ footer {display: flex;
     font-weight: 500;
     border-radius: 10px;
     cursor: pointer;
-    background-color: #E7E0DA;
+
 }
